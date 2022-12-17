@@ -13,7 +13,7 @@ def count_up(start, stop):
     """
     num = start
 
-    while num > stop:
+    while num <= stop:
         print(num)
         num = num + 1
     # YOUR CODE HERE

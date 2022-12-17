@@ -15,7 +15,7 @@ def sum_nums(nums):
 
     for x in nums:
       listed_nums += x
-
-
+    print(listed_nums)
+    return listed_nums
 
 print("sum_nums returned", sum_nums([1, 2, 3, 4]))
